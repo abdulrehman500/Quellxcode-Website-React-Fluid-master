@@ -31,12 +31,10 @@ export default function ContactUs() {
         <div>
           <h1 className="pt-10 title is-sm font-bolder">Go ahead. Say hello.</h1>
           <p className="w-19@lg">
-            Looking to redesign your website that hasn’t seen an upgrade in a few years? Or do you need a mobile application for your customers? Whatever may be your requirement, our team of highly adept and motivated software specialists at
-            QuellxCode can help you find the best IT solution by putting their craft and skills to work.
+          Are you looking to redesign a website that hasn't been updated in several years? Or do your customers require a mobile application? Whatever your needs are, QuellxCode's team of highly skilled and motivated software specialists can put their craft and skills to work to help you find the best IT solution.
           </p>
           <p className="w-19@lg">
-            As a Software house in Islamabad, no project is big or small for us to handle, and if you’re looking to consult with us for a solution you have in mind or need to discuss a business opportunity, simply drop us a message down below and we
-            will get back to you shortly.
+          As a software house in Islamabad, no project is too big or too small for us to handle, and if you'd like to consult with us on a solution or discuss a business opportunity, just send us a message using the form below, and we'll get back to you as soon as possible.
           </p>
 
           <button onClick={() => document.querySelector("#scrolldownView")?.scrollIntoView({ behavior: "smooth" })} id="scrolldown" className="btn bg-white is-circle shadow icon absolute left-50 border border-light clr-body">
