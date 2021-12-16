@@ -1,0 +1,576 @@
+@import "./Fluid/src/vendors/vendors";
+@import "./Fluid/src/tools/tools";
+@import "./Fluid/src/settings/settings";
+@import "./Fluid/src/settings/placeholders/prefers-reduced-motion";
+
+//
+// COMING-SOON
+//
+
+.COMING-SOON {
+  .title {
+    @include media-breakpoint-below(md) {
+      font-size: $title-size * $default-small-quantity !important;
+    }
+  }
+
+  .play .title {
+    opacity: 1 !important;
+  }
+
+  > div {
+    @include transition(background 0.5s ease-in-out, color 0.5s ease-in-out);
+  }
+}
+
+//
+// Home
+//
+
+.HOME {
+  .h-min-100vh > .event-none > img {
+    @include media-breakpoint-above(md) {
+      bottom: -20%;
+    }
+
+    @include media-breakpoint-above(lg) {
+      bottom: -75%;
+    }
+  }
+
+  .services {
+    .slide {
+      margin: 10% .5% 0 .5%;
+      @include media-breakpoint-above(sm) {
+        margin-top: 6%;
+      }
+
+      .img {
+        margin-top: -55%;
+      }
+
+      @include media-breakpoint-above(md) {
+        padding: 1rem;
+      }
+    }
+
+    .btn.is-min::before {
+      border-bottom-width: $borderwidth-wide;
+    }
+
+    .glider-track > .slide {
+      background-image: linear-gradient(rgb(195, 216, 246) 0%, rgb(195, 216, 246) 100%);
+
+      &:nth-child(even) {
+        background-image: linear-gradient(rgb(235, 202, 217) 0%, rgb(235, 202, 217) 100%);
+      }
+    }
+  }
+}
+
+//
+// About
+//
+
+.CASESTUDY,
+.CAREER,
+.SERVICES,
+.CONTACT-US,
+.HIRE-US,
+.METHODOLOGY,
+.ABOUT {
+  overflow: hidden !important;
+  .h-min-100vh > .event-none {
+    > .absolute.left-0 {
+      @include media-breakpoint-above(md) {
+        bottom: -20%;
+      }
+
+      @include media-breakpoint-above(lg) {
+        bottom: -75%;
+      }
+    }
+
+    > .absolute.flip-xy {
+      @include media-breakpoint-above(md) {
+        top: -20%;
+      }
+
+      @include media-breakpoint-above(lg) {
+        top: -30%;
+        right: -9% !important;
+      }
+    }
+  }
+}
+
+.APPLY {
+  .h-min-100vh > .event-none > img {
+    @include media-breakpoint-above(md) {
+      bottom: -20%;
+    }
+
+    @include media-breakpoint-above(lg) {
+      bottom: -75%;
+    }
+  }
+}
+
+//
+// Case Study
+//
+
+.CASESTUDY {
+  .bottom-20 {
+    bottom: 20%;
+  }
+
+  .top-20 {
+    top: 20%;
+  }
+
+  section:first-child > .event-none {
+    > .absolute.left-0 {
+      @include media-breakpoint-above(md) {
+        bottom: -20%;
+      }
+
+      @include media-breakpoint-above(lg) {
+        bottom: -75%;
+      }
+    }
+
+    > .absolute.flip-xy {
+      @include media-breakpoint-above(md) {
+        top: -20%;
+      }
+
+      @include media-breakpoint-above(lg) {
+        top: -30%;
+        right: -9% !important;
+      }
+    }
+  }
+
+  > div {
+    @include transition(background 0.5s ease-in-out, color 0.5s ease-in-out);
+  }
+
+  section.grid.has-gap-lg > .column {
+    &:first-child {
+      padding-right: 4% !important;
+    }
+    &:last-child {
+      padding-left: 4% !important;
+    }
+  }
+}
+
+.masonry-item {
+  position: relative;
+  & + & {
+    margin-top: 16px;
+  }
+
+  min-height: 250px;
+  &.sm {
+    min-height: 128px;
+  }
+
+  &.md {
+    min-height: 375px;
+  }
+
+  &.lg {
+    min-height: 516px;
+  }
+
+  > .img-bg {
+    background-color: initial;
+  }
+
+  @include hover {
+    .about {
+      opacity: 1;
+    }
+  }
+
+  .image {
+    position: relative;
+    overflow: hidden;
+    // min-height: 200px;
+
+    .img-bg {
+      position: static;
+    }
+
+    .about {
+      opacity: 0;
+      @include transition(opacity 0.3s ease-in-out);
+
+      @include before {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background: linear-gradient(to bottom, hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 0%, 0.8));
+      }
+
+      > img {
+        max-width: 70%;
+        z-index: 1;
+      }
+    }
+  }
+
+  @include hover {
+    .image .about {
+      opacity: 1;
+    }
+  }
+}
+
+//
+// Career
+//
+
+.CAREER {
+  .card-hover {
+    .icon {
+      transition: color 0.35s ease-in-out;
+    }
+
+    @include hover {
+      .icon.ri-angularjs-fill {
+        color: #dd0330;
+      }
+
+      .icon.ri-reactjs-fill {
+        color: #00d9ff;
+      }
+
+      .icon.ri-flutter-fill {
+        color: #51c0f2;
+      }
+
+      .icon.ri-vuejs-fill {
+        color: #41b883;
+      }
+    }
+  }
+}
+
+//
+// techwizors
+//
+
+.TECHWIZORS {
+  .bg-primary {
+    background-color: #1c4695 !important;
+  }
+  .clr-primary {
+    color: #1c4695 !important;
+  }
+
+  .bg-secondary {
+    background-color: #95e8cb !important;
+  }
+  .clr-secondary {
+    color: #95e8cb !important;
+  }
+}
+
+//
+// NERDPAPER
+//
+
+.NERDPAPER {
+  .bg-primary {
+    background-color: #00bcd6 !important;
+  }
+  .clr-primary {
+    color: #00bcd6 !important;
+  }
+}
+
+//
+// DIGITAL-MARKETING
+//
+
+.DIGITAL-MARKETING {
+  > div {
+    @include transition(background 0.5s ease-in-out, color 0.5s ease-in-out);
+  }
+
+  .bg-primary {
+    background: #ffdc00 !important;
+  }
+
+  .picture {
+    height: 268px;
+    border-width: 8px !important;
+  }
+
+  .PEOPLE-BG {
+    height: 5%;
+    @include media-breakpoint-above(md) {
+      height: 15%;
+    }
+  }
+
+  .WHATDRIVESUS {
+    .txt-clip {
+      font-size: 10em !important;
+      @include media-breakpoint-below(md) {
+        font-size: 5em !important;
+      }
+      background-image: url("https://www.socialfix.com/wp-content/uploads/2020/02/agency-tit-bg.jpg");
+    }
+  }
+
+  #pricing {
+    @include media-breakpoint-above(lg) {
+      .grid {
+        transform: rotate(-12deg);
+        > div:nth-child(1) > div {
+          margin-top: 20%;
+        }
+        > div:nth-child(3) > div {
+          margin-top: 30%;
+        }
+      }
+
+      .column {
+        max-width: 340px;
+      }
+    }
+
+    .card {
+      .bg-light {
+        background: #f7f8fc !important;
+      }
+    }
+
+    .absolute:first-child {
+      background: #ff506a;
+      padding: 44% !important;
+      top: 15%;
+      right: -5%;
+    }
+
+    .absolute:nth-child(2) {
+      background: #ff506a;
+      padding: 44% !important;
+      top: 30%;
+      @include media-breakpoint-above(md) {
+        top: 30%;
+      }
+      left: 10%;
+    }
+  }
+}
+
+// //
+// // Vease
+// //
+
+// .VEASE {
+//   .bg-primary {
+//     background: #29b449 !important;
+//   }
+
+//   .clr-primary {
+//     color: #29b449 !important;
+//   }
+
+//   .bg-secondary {
+//     background: #6d5ce9 !important;
+//   }
+
+//   .clr-secondary {
+//     color: #6d5ce9 !important;
+//   }
+// }
+
+//
+// DIGITAL-MARKETING
+//
+
+.DIGITAL-MARKETING {
+  .PEOPLE-BG {
+    background: #1b1b1b;
+  }
+
+  .WHATDRIVESUS {
+    background: #0a0a0a;
+  }
+}
+
+.MuiSelect-select.MuiSelect-select {
+  padding-right: 0 !important;
+}
+
+.MuiInput-underline {
+  @include before {
+    content: none !important;
+  }
+  .MuiInputBase-input {
+    padding: 0 $controls-padding-x / 2 !important;
+    // padding: 0;
+  }
+}
+
+.clr-primary .MuiInputBase-root.MuiInput-formControl {
+  color: $primary;
+  font-weight: bold;
+}
+
+.MuiMenuItem-root,
+.MuiInput-root,
+.MuiInputBase-root,
+.MuiSelect-select:focus {
+  background-color: transparent !important;
+  font-size: inherit !important;
+}
+
+.MuiSelect-icon {
+  display: none !important;
+}
+
+// //
+// // ELECTRONICVISITVERIFICATION
+// //
+
+// .ELECTRONICVISITVERIFICATION {
+//   .bg-primary {
+//     background: #2f3c63 !important;
+//   }
+
+//   .clr-primary {
+//     color: #2f3c63 !important;
+//   }
+// }
+
+//
+// EFUND
+//
+
+.EFUND {
+  .bg-primary {
+    background: #ff3301 !important;
+  }
+
+  .mt--25px\@lg {
+    @include media-breakpoint-above(lg) {
+      margin-top: -25%;
+    }
+  }
+
+  #HomeScreen .absolute\@md {
+    @include media-breakpoint-above(md) {
+      bottom: -7%;
+    }
+    @include media-breakpoint-above(lg) {
+      bottom: 10%;
+    }
+  }
+
+  #Settings .absolute\@md {
+    @include media-breakpoint-above(md) {
+      top: -0%;
+    }
+    @include media-breakpoint-above(lg) {
+      top: 10%;
+    }
+  }
+
+  .clr-primary {
+    color: #ff3301 !important;
+  }
+}
+
+//
+// ROADSTOVES
+//
+
+.ROADSTOVES {
+  .bg-primary {
+    background: #e88729 !important;
+  }
+
+  .clr-primary {
+    color: #e88729 !important;
+  }
+}
+
+//
+// CONNECTOR
+//
+
+.CONNECTOR {
+  .bg-primary {
+    background: #ff5a5f !important;
+  }
+
+  .clr-primary {
+    color: #ff5a5f !important;
+  }
+}
+
+//
+// SUPPORTLADS
+//
+
+.SUPPORTLADS {
+  .bg-primary {
+    background: #5bc9ea !important;
+  }
+
+  .clr-primary {
+    color: #5bc9ea !important;
+  }
+}
+
+//
+// BOLAN
+//
+
+.BOLAN {
+  .bg-primary {
+    background: #ab150f !important;
+  }
+
+  .clr-primary {
+    color: #ab150f !important;
+  }
+}
+
+//
+// STARTEM
+//
+
+// .STARTEM {
+//   .bg-primary {
+//     background: #2f9ed6 !important;
+//   }
+
+//   .clr-primary {
+//     color: #2f9ed6 !important;
+//   }
+// }
+
+// //
+// // CITZEN
+// //
+
+// .CITZEN {
+//   .bg-primary {
+//     background: #068ace !important;
+//   }
+
+//   .clr-primary {
+//     color: #068ace !important;
+//   }
+// }

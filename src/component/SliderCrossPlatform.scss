@@ -1,0 +1,67 @@
+@import "../scss/Fluid/src/vendors/vendors";
+@import "../scss/Fluid/src/tools/tools";
+@import "../scss/Fluid/src/settings/settings";
+@import "../scss/Fluid/src/settings/placeholders/prefers-reduced-motion";
+
+.CrossPlatform {
+  .absolute {
+    z-index: 1;
+  }
+
+  .slick-slide {
+    > div > div {
+      filter: blur(3px);
+      transform: scale(0.8);
+      @include transition(transform 1s, filter 1s);
+    }
+
+    &.slick-active > div > div {
+      transform: scale(1);
+      filter: unset;
+    }
+  }
+
+  .laptop {
+    .slick-slide {
+      > div > div > img {
+        transform: scale(0.85, 0.9) translateY(-7.5%);
+        @include media-breakpoint-above(md) {
+          transform: scale(0.78, 0.8) translateY(-7.5%);
+        }
+      }
+    }
+  }
+
+  .mobile {
+    z-index: 1;
+
+    @include media-breakpoint-above(lg) {
+      top: 25% !important;
+      left: 12vw !important;
+      width: 14% !important;
+      width: 150px !important;
+    }
+
+    .slick-slide {
+      > div > div > img {
+        transform: scale(0.95, 0.98) translateY(-0.5%);
+      }
+    }
+  }
+
+  .tablet {
+    z-index: 1;
+
+    @include media-breakpoint-above(lg) {
+      top: 15% !important;
+      right: 7vw !important;
+      width: 27% !important;
+      width: 286px !important;
+    }
+    .slick-slide {
+      > div > div > img {
+        transform: scale(0.9, 0.9) translateY(1%);
+      }
+    }
+  }
+}
