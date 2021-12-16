@@ -93,8 +93,8 @@ export default function Hire(props: props) {
         <div className="column w-24 w-12@md">
           <h1 className="title is-sm font-bolder">Hire Dedicated Developers</h1>
           <div className="mb-6">
-            QuellxCode helps global startups and enterprises to hire dedicated developer teams for custom software development requirements. Create your expert team with various technology domains, efficient communication, and timely updates for
-            guaranteed deliveries.
+           
+            QuellxCodehelps startups and global companies to hire dedicated developer teams for custom software development needs.Build your team of experts withdiverse areas of technology, effectivecommunication and quick updates for ensured delivery. 
           </div>
           <button onClick={() => setContactpopup(true)} className="btn is-sld is-pill is-primary px-4 py-2" style={{ padding: "10px 30px" }}>
             Let's Talk
@@ -112,12 +112,12 @@ export default function Hire(props: props) {
       <section className="container px-6 py-6@lg py-10 bg-light txt-center" id="scrolldownView">
         <h1 className="font-bolder">Hire Dedicated Developers</h1>
         <div className="is-lg mb-4">Create your own development team now</div>
-        <div className="txt-justify txt-center@lg">With ZERO upfront investment, we are committed to provide a solid foundation for your business idea. You’ll be amazed by working with our experts.</div>
+        <div className="txt-justify txt-center@lg">Build your development team now with the help of QuellxCode as one of the major IT services provider company Islamabad.</div>
       </section>
 
       <section className="container px-6 py-6@lg py-10 txt-center">
         <h1 className="font-bolder">Our Hiring Models</h1>
-        <div className="is-lg mb-4 txt-justify txt-center@lg">To get the project needs for any given business, QuellxCode Pvt Ltd offers full-time, part-time and hourly hiring for a development project.</div>
+        <div className="is-lg mb-4 txt-justify txt-center@lg">To get the project needs for any given business,QuellxCode Pvt Ltd offers full, part and hourly employment for a development project.</div>
 
         <div className="grid has-gap-lg txt-center">
           <div className="column w-8@md w-24">
@@ -153,23 +153,24 @@ export default function Hire(props: props) {
           <div className="column w-8@lg w-24 p-2 txt-center">
             <img className="img mb-6" src={one} alt="Client-centric Approach" />
             <h4 className="font-bolder mt-4 mb-6">Onsite Dedicated Team</h4>
-            <p className="txt-justify">We provide onsite staffing services to complete the development cycle. Our presence at the sites can be although temporary, frequent or full-time during the development life cycle</p>
+            <p className="txt-justify">We provide onsite recruitment services to complete the development cycle. Our presence on the sites may be temporary, frequent or permanent throughout the development cycle.</p>
           </div>
           <div className="column w-8@lg w-24 p-2 txt-center">
             <img className="img mb-6" src={two} alt="Client-centric Approach" />
             <h4 className="font-bolder mt-4 mb-6">Offsite Dedicated Team</h4>
-            <p className="txt-justify">Select developers from us and create your own team to kick-start the project in the fastest possible time. Have full control over the team with expert consultation via a cloud team.</p>
+            <p className="txt-justify">Chooseyour developers from us and create your team to getyour project up and running inno time. Take full control of your team with expert advice via your cloud team.</p>
           </div>
           <div className="column w-8@lg w-24 p-2 txt-center">
             <img className="img mb-6" src={three} alt="Client-centric Approach" />
             <h4 className="font-bolder mt-4 mb-6">Product Development Team</h4>
-            <p className="txt-justify">This is only extending your own group with our screened specialists who offer help for your item to discharge it effectively through the coordination of tech viewpoints and procedure stream.</p>
+            <p className="txt-justify">It is just anextensionof your own team with the help of ourproven specialists who o
+            ffer help with your product to relieve it effectively,coordinating the technical points of view and the flow of procedures.</p>
           </div>
         </div>
       </section>
-
+{/* ------------------------------------------stop -content Update-------------- */}
       <section className="px-6 py-6@lg py-10 container">
-        <h5>WHY QuellxCode Pvt Ltd?</h5>
+        <h5>WHY DO PEOPLE CHOOSE US?</h5>
         <h1 className="font-bolder">Hire Dedicated Developers from QuellxCode Pvt Ltd</h1>
         <Carousel
           slidesToShow={3}
