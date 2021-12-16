@@ -9,7 +9,6 @@
     "antd": "^4.5.4",
     "axios": "0.19.2",
     "headroom.js": "^0.11.0",
-    "node-sass": "^4.14.1",
     "react": "16.13.1",
     "react-countup": "^4.3.3",
     "react-dom": "^16.13.1",
@@ -21,7 +20,8 @@
     "react-scripts": "3.4.3",
     "react-visibility-sensor": "^5.1.1",
     "remixicon": "^2.5.0",
-    "typescript": "~3.9.7"
+    "typescript": "~3.9.7",
+    "node-sass": "^4.0.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.11.3",

@@ -36,11 +36,10 @@ export default function About() {
         </div>
 
         <div className="mt-6 container px-6">
-          <div className="mb-2 hidden block@md">We are expertise in Web Design and Development, App Development and SEO services in Islamabad.</div>
-          <h1 className="title is-sm font-bolder">Our excellence consists of our people, vision and worth.</h1>
+          <div className="mb-2 hidden block@md">We have the expertise in website and application development. We provide the best social media marketing services along with advertising and branding.</div>
+          <h1 className="title is-sm font-bolder">Our people, vision, and value are the foundations of our success.</h1>
           <div>
-            As a group of IT advisors, developers and promoting masters, our extensive rundown of glad customers are confirmation of our ability and range of abilities with regards to conveying the best arrangements. Regardless of whether you need
-            SEO Services, Web or Mobile development, Design aptitude or a marketing plan business, we have you secured.
+          Our wide list of happy customers is proof of our skill and range of abilities when it comes to delivering the best arrangements. We are a collection of IT experts, developers, and marketing specialists. We have you covered whether you require SEO services, website development or mobile development, or a marketing strategy for a business.
           </div>
 
           <button onClick={() => document.querySelector("#scrolldownView")?.scrollIntoView({ behavior: "smooth" })} id="scrolldown" className="btn bg-white is-circle shadow icon absolute left-50 border border-light clr-body">
@@ -51,59 +50,50 @@ export default function About() {
 
       <section id="scrolldownView" className="container px-6 py-6@md py-10 grid txt-justify bg-light">
         <div className="column w-24 w-12@md px-2">
-          <h1 className="font-bolder">Who We Are</h1>
+          <h1 className="font-bolder">Who We Are?</h1>
           <p className="mb-1rem">
-            What started as a quest to find problems and solve them with the right solution; QuellxCode Pvt Ltd isn’t just another software house in Islamabad. We’re a team of highly professional individuals who believe there isn’t a single business
-            problem that can’t be solved if you have the right tools and a passionate team to solve them with.
+          QuellxCode Pvt Ltd isn't just a typical Islamabad software house. We're a group of highly skilled professionals who think that with the correct tools and a dedicated team, no business problem is insurmountable.
           </p>
           <p className="mb-1rem">
-            We ensure that our clients can trust us with their problems and that we will come up with the right executions plan to bring their vision to life. Whether you’re a local business or located internationally, you will get nothing short of a
-            well designed, sleek, and smart IT solution for your business problem.
+          We guarantee that our clients may entrust us with their challenges, and that we will devise the best execution strategy to realize their goal. Whether you're a little business or a global corporation, you'll get nothing less than a well-designed, elegant, and intelligent IT solution to your problem.
           </p>
         </div>
         <div className="column w-24 w-12@md px-2">
-          <h1 className="font-bolder">What We Do</h1>
+          <h1 className="font-bolder">What We Do?</h1>
           <p className="mb-1rem">
-            As a team of IT consultants, developers and marketing gurus, our long list of happy clients are testament of our expertise and skill set when it comes to delivering the best solutions. whether you need SEO Services, Web or Mobile
-            development, Design expertise or a marketing strategy customised for your brand or business, we’ve got you covered.
+          Our lengthy list of delighted clients is proof to our competence and skill set when it comes to delivering the best solutions as a team of IT consultants, developers, and marketing gurus. We've got you covered whether you need SEO services, web or mobile development, or a marketing strategy tailored to your brand or business.
           </p>
           <ul className="list txt-left icon-check-circle">
-            <li>Branding & Strategy</li>
-            <li>Website design & development</li>
-            <li>Social media marketing</li>
-            <li>Search engine optimization</li>
-            <li>Press releases & case studies</li>
-            <li>Video & animation production</li>
+            <li>•	Advertising and Branding</li>
+            <li>•	Website design & development</li>
+            <li>•	Social media marketing</li>
+            <li>•	Search engine optimization</li>
+            
           </ul>
         </div>
       </section>
 
       <section className="container py-4 px-6">
-        <h1 className="font-bolder txt-center">Belief of Every QuellxCodeian</h1>
+        <h1 className="font-bolder txt-center">Every Quellx Codeian’s Belief </h1>
         <div className="grid has-gap-lg justify-center justify-start@lg">
           <div className="column w-24 w-8@lg w-12@md   p-2 txt-center">
             <img className="img mb-6" src={people_pik} alt="Client-centric Approach" />
             <h4 className="font-bolder mt-4 mb-6">Client-centric Approach</h4>
             <p className="txt-justify">
-              Customers always must be the epicenter for any kind of business to run. Being a successful web and mobile app development company, our goal is to visualize the situation from your ideas and thoughts. We come up with solutions that are
-              best fitted to our customers’ needs and perspectives, that would in run help your business grow.
+            Customers must always be at the center of every business. As a reputable web and mobile application development firm, our mission is to depict the situation based on your ideas and thoughts. We provide solutions that are tailored to our customers' needs and viewpoints, ultimately assisting the company's growth.
             </p>
           </div>
           <div className="column w-24 w-8@lg w-12@md   p-2 txt-center">
             <img className="img mb-6" src={circle_pik} alt="Client-centric Approach" />
             <h4 className="font-bolder mt-4 mb-6">Effective Collaboration</h4>
             <p className="txt-justify">
-              Correspondence is the key. We try to overdo that often. It brings out the best results for our clients, even though it may feel overwhelming. At the point when our development group works together with our customers sitting a great many
-              miles away, it's clear that we keep in contact with stages and mediums that allow viability, straightforwardness and precision.
-            </p>
+            The key to success is communication. We frequently strive to go overboard. Even though it may seem daunting, it produces the best results for our clients. When our development team collaborates with consumers that are thousands of miles away, it's evident that we use stages and mediums that allow for viability, clarity, and precision.  </p>
           </div>
           <div className="column w-24 w-8@lg w-12@md   p-2 txt-center">
             <img className="img mb-6" src={rocket_pik} alt="Client-centric Approach" />
             <h4 className="font-bolder mt-4 mb-6">Quality Delivered in Time</h4>
             <p className="txt-justify">
-              With more than twenty years of involvement with the at distant IT software development industry, we have an incredible arrangement of inside structures with top tier framework that empowers us to convey arrangements with prevalent
-              quality, consistently. Every one of these years, we have figured out how to forestall disappointments and imitate achievement. We don't simply boast about quality. We characterize and convey it in time.
-            </p>
+            With more years of experience in the best social media marketing services, we have a strong set of internal structures and a top-tier framework that enables us to constantly deliver high-quality setups. We've worked out how to avoid setbacks and emulate success throughout the years. We don't only brag about our excellence. We describe it and communicate it in real time. </p>
           </div>
         </div>
       </section>
@@ -315,33 +305,25 @@ export default function About() {
         <div className="column w-24 w-12@md">
           <div className="sticky top-header">
             <div className="mb-1rem">Our Core Values</div>
-            <h2 className="font-bolder">Provide Trustworthy and quality Software development Services</h2>
+            <h2 className="font-bolder">Offers Trustworthy and quality Software development Services</h2>
           </div>
         </div>
         <div className="column w-24 w-12@md">
           <h5 className="font-bolder">Ideal Client Satisfaction</h5>
           <div className="mb-6">
-            We can't help ourselves! Our customers are the accomplices behind the achievement we have tasted throughout the decades. This is the explanation we keep customer fulfillment at the focal point of our system. We are not short of
-            coordinated effort to enhance our bits of knowledge for ideal execution of our contributions. The acclaim from the customers is what our ears were longing to hear, and we'd hunger for that. It's an appetite in us that never blurs.
-          </div>
+          We're powerless to stop ourselves! Our customers have been instrumental in the success we've enjoyed over the years. Therefore, we keep customer satisfaction at the top of our priority list. We have enough of concerted effort to improve our bits of knowledge to execute our contributions perfectly. Our ears yearned to hear the applause of the customers, and we were hungry for it. It's a never-flinching appetite in us. </div>
 
           <h5 className="font-bolder">Result-oriented Approach</h5>
           <div className="mb-6">
-            The underlying foundations of QuellxCode Pvt Ltd.’s prosperity is associated with our vision and execution of it. Beginning from the enrollment to the quality expectations, we keep our qualities unblemished. We enlist energetic people who
-            have a spirit in themselves that's so strong. Individuals who truly need to work with us and values the significance of customers' expectation and to provide quality outcomes.
-          </div>
+          Our vision and execution are the fundamental foundations of Quellxcode’s Pvt Ltd success. From enrollment to quality demands, we maintain immaculate qualities. We recruit persons that are energetic and have a strong spirit. Individuals who have a genuine need to work with us and understand the importance of meeting clients' expectations and delivering high-quality results.  </div>
 
           <h5 className="font-bolder">Honesty in Everything</h5>
           <div className="mb-6">
-            Honesty is our center and is at the focal point of all that we do. For QuellxCode Pvt Ltd., it is in the same class as adhering to the law, perhaps more than that. It is tied in with conveying on our responsibilities, trustworthiness and
-            decency in business and everyday living. We are a family that has confidence in collaboration with one Mantra, that is to kick the bucket with recollections, not dreams.
-          </div>
+          Honesty is at the heart of everything we do. It has to do with communicating our duties, integrity, and decency in the workplace and in everyday life. We are a family who believes in working together to achieve one goal: to die with memories, not dreams. </div>
 
           <h5 className="font-bolder">Great Place to Work</h5>
           <div className="mb-6">
-            There are a couple of things that make QuellxCode Pvt Ltd a family. We love our peeps. QuellxCode Pvt Ltd is only not about its guarantees, worldwide acknowledgments or tributes. With absolute regard, we grasp the assorted variety of
-            thought, societies, and of individuals. Nothing feels better than getting motivated by the tutors and their examples of overcoming adversity. Truly, QuellxCode Pvt Ltd is caring for its invaluable resources, the workers. People work here,
-            not robots!!
+          Quellxcode Pvt Ltd has a few special characteristics that make it feel like a family. We adore our pals. QuellxCode Pvt Ltd isn't just about its assurances, global recognition, or tributes. We embrace the various varieties of thought, society, and individuals with utmost respect. Nothing beats being inspired by the teachers and their stories of triumph through adversity. QuellxCode Pvt Ltd is truly concerned about its most precious resource, its employees. People, not robots, work here!!
           </div>
         </div>
       </section>
