@@ -333,30 +333,30 @@ export default function Hire(props: props) {
           <div className="column p-4 w-8@lg w-12@md w-24">
             <img src={comm_pik} alt="icon" className="img mb-10" />
             <h5 className="font-bolder mb-4">Direct Communication</h5>
-            <div className="txt-justify">You will get full access to converse with picked engineers through Skype, email, and telephone with sound/video conferencing alternatives to defeat the correspondence obstruction.</div>
+            <div className="txt-justify">You will have full access to communication with selected engineers via Skype, email and telephone with alternative audio / video conferencing to overcome the difficulties of communication.</div>
           </div>
           <div className="column p-4 w-8@lg w-12@md w-24">
             <img src={cost_pik} alt="icon" className="img mb-10" />
             <h5 className="font-bolder mb-4">ZERO Upfront Cost</h5>
-            <div className="txt-justify">We help you to locally available the group with ZERO expense in regard to foundation, recruiting and staffing. You will just need to pay for the commitment time frame with the picked group of yours.</div>
+            <div className="txt-justify">We will help you find a local group with ZERO set-up,recruitment and staff costs. You will only have to pay for the commitment period with the selected group.</div>
           </div>
           <div className="column p-4 w-8@lg w-12@md w-24">
             <img src={full_pik} alt="icon" className="img mb-10" />
-            <h5 className="font-bolder mb-4">Full Project Control</h5>
+            <h5 className="font-bolder mb-4">Complete Project Control</h5>
             <div className="txt-justify">
-              Customers will have unlimited authority over the employed improvement group. The employed improvement group will work legitimately with you to design, create, convey the item that addresses business issues.
+            Customers will have unlimited authority over the employed improvement group.An employee improvement group will lawfully work with you to design, create, and deliver articles that address business issues.
             </div>
           </div>
           <div className="column p-4 w-8@lg w-12@md w-24">
             <img src={trans_pik} alt="icon" className="img mb-10" />
             <h5 className="font-bolder mb-4">100% Transparency</h5>
-            <div className="txt-justify">Perhaps the best part of a devoted improvement model is to have ideal venture updates to understand its condition. This causes in accurate forecasting to dispatch while prioritizing the deliveries.</div>
+            <div className="txt-justify">Perhaps the best part of the custom upgrade model is having the ideal enterprise update to understand the conditions. This ensures that in accurate estimates they ship with priority on delivery</div>
           </div>
           <div className="column p-4 w-8@lg w-12@md w-24">
             <img src={play_pik} alt="icon" className="img mb-10" />
             <h5 className="font-bolder mb-4">Plug ‘N Play</h5>
             <div className="txt-justify">
-              Fabricate your group for all intents and purposes right away. You have the adaptability to scale up and downsize the group through a notification only a month prior to upgrade the expenses and commitment per asset.
+            Create your complete group now. You have the option to increase and decrease the group size with only one month's notice prior to renewing costs and commitments based on resources.
             </div>
           </div>
         </div>
