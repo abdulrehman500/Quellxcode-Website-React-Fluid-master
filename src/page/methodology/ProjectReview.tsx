@@ -19,10 +19,10 @@ export default function ProjectReview() {
         </div>
 
         <div className="column w-24 w-12@md">
-          <h1 className="title is-sm font-bolder">Taking proactive measures for efficient delivery</h1>
-          <h4>Occasional survey to teach a 360° perspective on each circumstance in a task</h4>
+          <h1 className="title is-sm font-bolder">Taking proactive steps to ensure timely delivery</h1>
+          <h4>Occasionally, a survey is conducted to teach a 360° perspective on each situation in a task</h4>
           <div className="mb-6">
-            This audit procedure happens inside various time periods dependent on complex and difficult nature. The point is to audit key expectations, group arrangement, and everything that impact opportune and powerful conveyance of venture.
+          This audit technique takes place across a variety of time periods, depending on how complex and demanding the audit is. The goal is to examine key expectations, group structure, and everything else that affects the timely and efficient project delivery
           </div>
         </div>
         <div className="column hidden block@md">
@@ -40,14 +40,13 @@ export default function ProjectReview() {
         </div>
         <div className="column w-24 w-12@md pl-4">
           <h5 className="mb-8">
-            "Exclusive sets or HIRE Model methodology in straightforward terms is tied in with picking and making your own group to deal with your product advancement venture so you stay concentrated on centre business zones. You can employ them on a
-            full time, part-time or hourly basis, from a single person to a group of developers, that will be working freely or related to another team(s)."
-          </h5>
+          "Exclusive sets or HIRE Model methodology in straightforward terms is tied in with picking and making your own group to deal with your product advancement venture so you stay concentrated on centre business zones. You can employ them on a full time, part-time or hourly basis, from a single person to a group of developers, that will be working freely or related to another team(s)."  </h5>
           <p>
-            With successful mutual effort, a committed programming improvement group can have clear bits of knowledge about the task objective. The business vision and objectives about what your END clients are relied upon to get are clarified ahead
-            of time alongside a guide on venture the executives – from the opening shot to conveyance.
+          A dedicated programming improvement group can have unambiguous bits of knowledge about the task target with successful mutual effort. The business vision and objectives for what your END clients may expect are specified ahead of time, along with a step-by-step roadmap for the executives – from the first shoot toefficient project delivery.
           </p>
-          <p>What's more, from our 20+ long periods of experience, we can ensure that this methodology expands productivity, quality and timely delivery of the project by a great deal.</p>
+          <p>
+          Furthermore, based on our 20+ years of experience, we can guarantee that this methodology significantly increases project productivity, quality, and timeliness
+          </p>
         </div>
       </section>
     </>
