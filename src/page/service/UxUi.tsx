@@ -28,8 +28,8 @@ export default function UxUi() {
           <img src={Fluid} alt="fluid_image" className="img absolute w-5 flip-xy right-0" />
         </div>
         <div className="mt-6 container px-6">
-          <h1 className="title is-sm font-bolder">Get insight on how we make our apps look awesome as they are right now.</h1>
-          <div>Understanding the brand is the most critical job before working on user interface. This is merely because a great design may not be the user-friendliest design, which can offer a better user experience.</div>
+          <h1 className="title is-sm font-bolder">Get an inside peek at how we make our apps appear as good as they do now.</h1>
+          <div>The most important task before working on the user interface is to understand the brand. This is because a brilliant design may not be the most user-friendly design, which can provide a superior user experience with best graphic design services.</div>
           <button onClick={() => document.querySelector("#scrolldownView")?.scrollIntoView({ behavior: "smooth" })} id="scrolldown" className="btn bg-white is-circle shadow icon absolute left-50 border border-light clr-body">
             <i className="icon ri-2x ri-arrow-down-line" />
           </button>
@@ -38,7 +38,8 @@ export default function UxUi() {
 
       <section className="container txt-center px-6 pt-6 bg-light" id="scrolldownView">
         <h1 className="font-bolder">The Difference</h1>
-        <div className="px-10">We say the discovery is at the center of ingenuity. We learned a little dash of crazy mixed with great discipline, creates masterpieces - we call it "Discovery Workshop"</div>
+        <div className="px-10">We claim that inventiveness is centered on discoveries. We discovered that a little bit of 
+        craziness combined with a lot of discipline results in masterpieces - we name it "Discovery Workshop."</div>
 
         <img className="img" src={bottom} alt="" />
       </section>
@@ -139,10 +140,10 @@ export default function UxUi() {
 
           <div className="mb-6">
             <p>
-              We make your UI/UX design project a pleasant and successful experience. Here in Keyideas, we specialize in UI/UX design that helps our client capture attention across all major platforms. Our UI/UX web design help you reach millions of
-              global customers.
+            We make working on your UI/UX design project enjoyable and successful. We specialize in graphic designthat helps our clients capture attention on all major platforms. Our user interface and user experience (UI/UX) design can help you reach millions of clients across the world.
+
             </p>
-            <p>Our team believes in creating innovative UI/UX designs to help grow your business. Our designs help our clients communicate and run their business better.</p>
+            <p>Our staff is dedicated to developing cutting-edge UI/UX designs that will aid in the expansion of your company. Our designs assist our clients in better communication and management of their businesses</p>
           </div>
         </div>
         <div className="column w-24 w-11@md txt-right">
@@ -164,8 +165,7 @@ export default function UxUi() {
           <div className="mb-6">
             <h5>Uesr Interface</h5>
             <div>
-              User interface design (UI), by definition, is the design of user interfaces for software such as mobile apps, with a focus on maximizing user experience by employing design principles that concentrate on usability and utility. Good user
-              interface design ensures that interface elements are functional, easy to access, and easy to understand.
+            User interface design (UI) is the creation of user interfaces for software, such as mobile apps, with the goal of maximizing user experience via design principles that emphasizes on usability and utility. A good user interface design guarantees that all interface elements are functional, accessible, and understandable.
             </div>
           </div>
 
@@ -191,20 +191,22 @@ export default function UxUi() {
 
           <div className="mb-6">
             <h5>Mindmap</h5>
-            <div>A mind map is a diagram used to visually organize information. A mind map is hierarchical and shows relationships among pieces of the whole.</div>
+            <div>A mind map is a visual representation of information. A mind map is a hierarchical diagram that depicts relationships between parts of a larger picture.</div>
           </div>
 
           <div className="mb-6">
             <h5>Market Research</h5>
-            <div>In order to deliver the best user experience, we look into the products that already exist.</div>
+            <div>We investigate existing items in order to provide the optimum user experience.</div>
           </div>
 
           <div className="mb-6">
             <h5>Wireframe</h5>
             <div>
-              Wireframes are essential We wouldn’t be a good user experience design agency if we didn’t wireframe before the designs were finalized.Wireframing allows us to layout user interface elements in such a way that ensures proper
-              functionality within the app. A proper wireframe should look like a completed maze. Often times, when one is sketching out an app, they stumble upon a function they can’t proceed from, a dead end. Wireframing ensures the app flows
-              without snags.
+           
+            Wireframes are necessary. If we didn't wireframe before finalizing the designs, we wouldn't be a decent user
+            experience design firm. Wireframing enables us to arrange user interface elements in a way that assures optimal
+            app functionality. A good wireframe should resemble a whole maze. When sketching out an app, it's common to come across a function 
+            from which you can't move further, a dead end. Wireframing ensures that the app runs smoothly.
             </div>
           </div>
         </div>
@@ -226,14 +228,11 @@ export default function UxUi() {
           <hr className="mb-6 w-5 border-primary clr-primary border o-100 border-wide clr-dark" />
 
           <div className="mb-6">
-            <div>Surgically crafting beautiful pixels to create a visually appealing interface of relevant screens</div>
+            <div>QuellxCode has a dedicated UX/UI design team that appreciates the value of both. To provide the most efficient output from the website or mobile application, we understand that the interface should have a minimal input process.</div>
             <div>
-              QuellxCode has a pool of UX/UI design team of experts who understands the importance of both. We understand that the interface should have minimal input process to generate most efficient output from the website or mobile application.
+            As a rule, the design of the website should be dictated by the content. With the current trend of working with pre-designed templates, one thing we realize is that design cannot be determined until the content of the website fits the design.
             </div>
-            <div>
-              As a thumb rule, the website should be designed in a way that the content should govern the design. With the current trend of working on pre-designed templates, something that we understand and those don’t is that design can not be
-              defined before the content of the website is not fitting to the design. An awesome design can remain awesome only when the content is perfectly fitting in the design to govern the website.
-            </div>
+           
           </div>
         </div>
       </section>
@@ -249,13 +248,13 @@ export default function UxUi() {
 
           <div className="mb-6">
             <div>
-              Our experienced UI/UX design developers understand this phenomenon thoroughly and hence we create custom design for each website that we built to ensure that we come up with a more personalized, result oriented, branded user interface
-              to offer the most intuitive & interactive user experience.
+            Our Graphic design experts are well-versed in this phenomenon; therefore, we construct a custom design for each website we build to ensure that we deliver a more personalized, results-oriented, branded user interface that provides the most intuitive and interactive user experience possible.
             </div>
-            <div>Our frontend development team understands the other factors like speed, optimization, load-time to have been able to use powerful technologies to justify the design like HTML5, angular.js, node.js, bootstrap and many more.</div>
             <div>
-              Our strong belief is, a design, an interface and an experience with its right combination can make the client love your brand. We have the expertise and ability to build that brand for your business and make you a winner in these areas.
-              To know more about UI/UX Development from Techtic, feel free to contact us.
+            Our frontend development team is aware of the elements such as speed, optimization, and load time, and has been able to justify the design using powerful technologies such as HTML5, angular.js, node.js, bootstrap, and others.
+                </div>
+            <div>
+            We believe that the proper combination of design, interface, and experience can make a client fall in love with your brand. We have the knowledge and skills to help you develop a brand for your company and become a winner in these areas. 
             </div>
           </div>
         </div>

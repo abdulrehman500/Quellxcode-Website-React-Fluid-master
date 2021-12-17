@@ -71,7 +71,7 @@ export default function Marketing() {
           <div className="px-6 txt-center">
             <h1 className="title is-sm">“Trust your business with our fool proof SEO marketing strategies, for buzz in analytics”</h1>
             <p className="txt-justify txt-left">
-              We believe in what we do and stand together, with you, to achieve even the impossible. We lead with creativity, think strategically, build systems and processes, and pour our souls into each pixel we touch. Learn more about us below.
+            We believe in what we do and stand together, with you, to achieve even the impossible. We lead with creativity, think strategically, build systems and processes, and pour our souls into each pixel we touch. Learn more about us below.
             </p>
           </div>
           <div className="grid justify-between mx-auto w-18 mb-4">
@@ -119,13 +119,10 @@ export default function Marketing() {
           </div>
           <div className="column w-24 w-13@md is-lg mb-0 mt-35@md mt-0 font-bold clr-white txt-left@md txt-justify">
             <p>
-              As a Full Stack digital agency we live and breathe for the thrill of helping businesses launch off on the Google Search Engine Results Page, and get the much needed buzz in their analytics. We don’t just search and apply keywords to
-              your content, we figure out the best, high volume, long tail, niche specific keywords that will result in a higher sales conversion and a strong ROI. We live at the intersection of strategy, technology, media and marketing and are
-              driven to innovate through creative, kickass strategies while using some of the best technology out there for your brand.
+            As a full-service digital firm, we live and breathe for the joy of helping businesses become seen on Google's SERPs and generate much-needed buzz in their statistics. While providing digital marketing services in Islamabad and other parts of the world, we don't just search for keywords and apply them to your content; we find out the best, high-volume, long-tail, niche-specific keywords that will lead to increased sales conversions and a higher ROI. We work at the crossroads of strategy, technology, media, and marketing, and we're driven to innovate by combining creative, cutting-edge strategies with some of the best technology available for your company.
             </p>
             <p>
-              We are entrepreneurs at heart, and this a long road of surprising our clients and ourselves with the way we market and find solutions for their business problems. The team at QuellxCode Pvt Ltd understands the importance and impact
-              well-executed results-driven campaigns as it can mean the difference between extraordinary and average results, that is why we’re your best bet to make some noise online and offline.
+            We are, at our core, entrepreneurs, and we have a long history of surprising our clients and ourselves with the way we market and solve their business problems. The staff at QuellxCode Pvt Ltd recognises the value and effect of well-executed results-driven campaigns, which can be the difference between exceptional and average outcomes, which is why we're your best chance for making some noise online and off. Hence our digital marketing services in Islamabad are available to make the lives of many businesses easier.
             </p>
           </div>
         </section>

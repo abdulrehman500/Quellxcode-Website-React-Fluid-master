@@ -108,8 +108,7 @@ export default function Web(props: props) {
           <div className="mb-2">Award-winning Offshore Software Development Company Since 2013</div>
           <h1 className="title is-sm font-bolder">Web App Development Company</h1>
           <div>
-            We develop Web apps that help businesses for better operational efficiency and engagement. Hire certified Web app developers from QuellxCode Pvt Ltd who are experts for delivering excellence in Android, iOS and cross-platform app
-            development services.
+          We create Web applications that assist organizations improve operational efficiency and employee engagement. QuellxCode Pvt Ltd has certified developers that are experienced in delivering excellence in web design, web development, Android, iOS, and cross-platform app development services.
           </div>
         </div>
       </section>
@@ -120,17 +119,19 @@ export default function Web(props: props) {
           <div className="column w-8@md w-24 p-2 txt-center">
             <img src={one_pik} className="img mb-6" alt="icon" />
             <h5 className="font-bolder mt-4 mb-6">Enterprise</h5>
-            <p className="txt-justify">Our collaborative consulting on Web Strategy serves as a catalyst in streamlining IT frameworks and processes with the Web roadmap that is aligned with enterprise scenarios, policies and current systems.</p>
+            <p className="txt-justify">
+            With a web roadmap that is aligned with company scenarios, policies, and present systems, our collaborative web strategy consultancy serves as a catalyst for optimizing IT frameworks and procedures.
+            </p>
           </div>
           <div className="column w-8@md w-24 p-2 txt-center">
             <img src={two_pik} className="img mb-6" alt="icon" />
             <h5 className="font-bolder mt-4 mb-6">Business</h5>
-            <p className="txt-justify">We map business’s needs and use cases to enable them to quickly respond to the changes. We help your organization mobilize the inter-department communication, workflows and instant information availability.</p>
+            <p className="txt-justify">We sketch out the needs and use cases of businesses so that they can respond rapidly to changes. We assist your business in mobilizing inter-departmental communication procedures and providing fast access to information.</p>
           </div>
           <div className="column w-8@md w-24 p-2 txt-center">
             <img src={three_pik} className="img mb-6" alt="icon" />
             <h5 className="font-bolder mt-4 mb-6">Consumers</h5>
-            <p className="txt-justify">Our Web experts help brands, businesses and community organizations to build scalable Web application solutions that are aimed to be used on a daily basis by global consumers, multiple times in a day.</p>
+            <p className="txt-justify">Our web professionals assist brands, corporations, and community organizations in developing scalable online application solutions that are intended to be utilized by global consumers.</p>
           </div>
         </div>
       </section>
@@ -141,10 +142,7 @@ export default function Web(props: props) {
             <h1 className="txt-center txt-left@md">Enterprise Solutions</h1>
 
             <div className="txt-justify p-2 p-0@md">
-              QuellxCode makes sure that the integration is an optimized process with which you can easily unify multiple applications, systems and databases in your company. With our integrated integration solutions, your company benefits from a
-              robust system and software that enable an efficient system connection and enable you to better manage numerous data resources, formats and protocols while mastering the challenge of system orchestration. We develop customer-specific web
-              portals for companies, e-commerce solutions, B2B and B2C applications, ERP and CRM software applications, reporting, billing & amp; Secure systems for handling financial transactions, etc Our range of services extends from the
-              conception and development of:
+            Quellxcode ensures that integration is a smooth procedure that allows you to effortlessly integrate numerous applications, systems, and databases in your organization. With our comprehensive integration solutions, your firm gains a reliable system and software that allows you to better handle several data resources, formats, and protocols while overcoming the barrier of system orchestration. We create consumer-focused web portals for businesses, as well as e-commerce solutions, B2B and B2C applications, ERP and CRM software applications, reporting, billing, and secure financial transaction platforms, among other things.
             </div>
             <ul className="mt-4 flex flex-wrap align-middle">
               <li className="w-12@md w-24">Custom Enterprise Web Design and Development</li>
@@ -167,17 +165,16 @@ export default function Web(props: props) {
           <div className="column w-12@md w-24 pr-2">
             <h1 className="txt-center txt-left@md">E-Commerce</h1>
             <div className="txt-justify p-2 p-0@md">
-              QuellxCode is a top ecommerce web development company developing alluring web based ecommerce solutions for the best experiences. Our ecommerce website development services include full web design for online ecommerce stores and custom
-              ecommerce web development for small, medium and large retail businesses. It has helped us create first class ecommerce web solutions with a robust one Provide online content management system.
+            Quellxcode is a leading ecommerce webdevelopment firm that creates attractive web-based ecommerce solutions for the greatest customer experiences. Full web design for online ecommerce stores, as well as custom ecommerce web development for small,medium, and big retail firms, are included in our ecommerce website development services. It has aided us in developing world-class ecommerce web solutions, as well as a comprehensive online content management system.
             </div>
             <ul className="mt-4 flex flex-wrap align-middle">
               <li className="w-12@md w-24">Online eCommerce Website Design</li>
-              <li className="w-12@md w-24">SaaS based eCommerce Set up</li>
               <li className="w-12@md w-24">Fraud Proof eCommerce Website Development</li>
-              <li className="w-12@md w-24">Responsive eCommerce Websites/ Web Apps</li>
               <li className="w-12@md w-24">Shopping Cart Development</li>
-              <li className="w-12@md w-24">Mobile Commerce Solutions</li>
               <li className="w-12@md w-24">Custom eCommerce Development</li>
+              <li className="w-12@md w-24">SaaS based eCommerce Set up</li>
+              <li className="w-12@md w-24">Responsive eCommerce Websites/ Web Apps</li>
+              <li className="w-12@md w-24">Mobile Commerce Solutions</li>
               <li className="w-12@md w-24">Multi-vendor Store Development</li>
             </ul>
           </div>
@@ -188,16 +185,15 @@ export default function Web(props: props) {
             <h1 className="txt-center txt-left@md">Content Management System</h1>
 
             <div className="txt-justify">
-              QuellxCode have one of the best content writers, who offer a comprehensive range of CMS development services and solutions (content management system) for websites, B2C and B2B portals, applications and business solutions. E-commerce.
-              Our success rate in project handling of 100% for CMS development projects shows the know-how of talented CMS developers at QuellxCode. Get your work the best content services by hiring us. We are masters in making your work stand out
-              from the rest.
+            Quellxcode has some of the top content writers and provides a full variety of CMS development services and solutions (content management system) for websites, B2B and B2C portals, applications and business solutions, and E-commerce. Quellxcode's 100% success rate in project management for CMS development projects demonstrates the expertise of our talented CMS developers. By hiring us, you may get the greatest content services for your company. We know how to make your work stand out from the crowd.
+
             </div>
             <ul className="mt-4 flex flex-wrap align-middle">
               <li className="w-12@md w-24">Custom CMS Web Design and Development</li>
-              <li className="w-12@md w-24">CMS Migration & Update</li>
               <li className="w-12@md w-24">CMS for B2C & B2B Apps</li>
-              <li className="w-12@md w-24">CMS for eCommerce Solutions</li>
               <li className="w-12@md w-24">Enterprise CMS Development</li>
+              <li className="w-12@md w-24">CMS Migration & Update</li>
+              <li className="w-12@md w-24">CMS for eCommerce Solutions</li>
             </ul>
           </div>
           <div className="column w-12@md w-24 pl-2 txt-right">
@@ -212,18 +208,17 @@ export default function Web(props: props) {
           <div className="column w-12@md w-24 pr-2">
             <h1 className="txt-center txt-left@md">Static Website Development</h1>
             <div className="txt-justify p-2 p-0@md">
-              QuellxCode provides affordable content management solutions with a greater level of functionality than traditional websites.Every business needs a website to propel its growth. Business owners focussed on day-to-day operations often put
-              their website on the back burner. QuellxCode takes you through our proven structured process from a concept to a fully functioning lead generation engine for your business operations.We care for your business, so we got creatively and a
-              technically productive team that develop and provide the best services throughout the world. Our objective is to create well-developed material websites.
+            Quellxcode offers cost-effective content management solutions that outperform traditional websites in terms of functionality. To fuel its growth, every company requires a website. Many business owners are preoccupied with their day-to-day activities and neglect their website. Quellxcode guides you through a disciplined approach that takes you from a concept to a fully functional lead generating engine for your business. We value your business, so we've assembled a highly creative and technically proficient team to design and deliver the best services worldwide. 
+
             </div>
             <ul className="mt-4 flex flex-wrap align-middle">
               <li className="w-12@md w-24">Fraud Proof eCommerce Website Development</li>
-              <li className="w-12@md w-24">Online eCommerce Website Design</li>
               <li className="w-12@md w-24">Responsive eCommerce Websites/ Web Apps</li>
-              <li className="w-12@md w-24">Multi-vendor Store Development</li>
               <li className="w-12@md w-24">SaaS based eCommerce Set up</li>
-              <li className="w-12@md w-24">Shopping Cart Development</li>
               <li className="w-12@md w-24">Mobile Commerce Solutions</li>
+              <li className="w-12@md w-24">Online eCommerce Website Design</li>
+              <li className="w-12@md w-24">Multi-vendor Store Development</li>
+              <li className="w-12@md w-24">Shopping Cart Development</li>
               <li className="w-12@md w-24">Custom eCommerce Development</li>
             </ul>
           </div>
@@ -233,13 +228,13 @@ export default function Web(props: props) {
           <div className="column w-12@md w-24 pr-2 order-1 order-0@md">
             <h1 className="txt-center txt-left@md">Custom Web Design and Development</h1>
             <div className="txt-justify p-2 p-0@md">
-              We are a dominant web design and web development company that helps some of the best known brands to be present in the digital landscape through personalized web development services. The web solutions we develop are feature-rich,
-              highly functional, robust, secure and scalable and have an attractive UI / UX design that the brand appreciates.
+            We are a leading online design and development firm that helps some of the world's most well-known organizations establish a digital presence through customized web development services. Our online solutions are feature-rich, highly functional, resilient, secure, and scalable, with a pleasing UI/UX design that the brand values.
+
             </div>
             <ul className="mt-4 flex flex-wrap align-middle">
               <li className="w-12@md w-24">Custom Website Design</li>
-              <li className="w-12@md w-24">Web CMS Development</li>
               <li className="w-12@md w-24">Web Portal Development</li>
+              <li className="w-12@md w-24">Web CMS Development</li>
               <li className="w-12@md w-24">eCommerce Website Development</li>
               <li className="w-12@md w-24">Enterprise Web App Development</li>
             </ul>
@@ -262,7 +257,7 @@ export default function Web(props: props) {
                 <span className="clr border is-pill px-7px mr-7px">Entertainment</span>
                 <span className="clr border is-pill px-7px mr-7px">Shopping</span>
               </div>
-              <div className="txt-justify">It utilizes the client's history to recommend comparable items or administrations. Much the same as the recommendations while shopping from Amazon or viewing Netflix.</div>
+              <div className="txt-justify">It makes recommendations based on the client's past purchases or services. It's like the recommendations you get while you're shopping on Amazon or watching Netflix.</div>
             </div>
           </div>
 
@@ -274,7 +269,8 @@ export default function Web(props: props) {
                 <span className="clr border is-pill px-7px mr-7px">Mobile</span>
                 <span className="clr border is-pill px-7px mr-7px">Social</span>
               </div>
-              <div className="txt-justify">It utilizes the client's history to propose comparable items or administrations. Much the same as the proposals while shopping from Amazon or viewing Netflix</div>
+              <div className="txt-justify">
+              It makes recommendations based on the client's previous purchases or services. Like the offers made while shopping on Amazon or watching Netflix.</div>
             </div>
           </div>
 
@@ -286,7 +282,7 @@ export default function Web(props: props) {
                 <span className="clr border is-pill px-7px mr-7px">Banking</span>
                 <span className="clr border is-pill px-7px mr-7px">Retail</span>
               </div>
-              <div className="txt-justify">Smart bots modified to mechanize different business procedures and client assistance with moment, exact data.</div>
+              <div className="txt-justify">Smart bots have been adapted to automate many business processes and provide clients with real-time, accurate data.</div>
             </div>
           </div>
 
@@ -296,7 +292,7 @@ export default function Web(props: props) {
               <div className="mt-2 mb-6 o-50 is-sm">
                 <span className="clr border is-pill px-7px mr-7px">Education</span>
               </div>
-              <div className="txt-justify">ML-driven statistical model is constructed utilizing students' answers which decides their memory cycle and ping them for revisions.</div>
+              <div className="txt-justify">Students' answers are used to build an ML-driven statistical model that determines their memory cycle and pings them for modifications.</div>
             </div>
           </div>
 
@@ -306,7 +302,7 @@ export default function Web(props: props) {
               <div className="mt-2 mb-6 o-50 is-sm">
                 <span className="clr border is-pill px-7px mr-7px">Healthcare</span>
               </div>
-              <div className="txt-justify">ML based applications can help specialists to treat patients ahead of time and spare lives by having hands-on expectations dependent on their patient information.</div>
+              <div className="txt-justify">By having hands-on expectations based on their patient knowledge, ML-based applications can assist specialists treat patients ahead of time and save lives.</div>
             </div>
           </div>
 
@@ -316,7 +312,7 @@ export default function Web(props: props) {
               <div className="mt-2 mb-6 o-50 is-sm">
                 <span className="clr border is-pill px-7px mr-7px">Real Estate</span>
               </div>
-              <div className="txt-justify">Computer based intelligence innovation has driven development of computerized voice homes, whereby working is controlled by an application with upgraded security.</div>
+              <div className="txt-justify">Computer-based intelligence innovation has fueled the creation of computerized voice homes, in which work is managed by a secure program.</div>
             </div>
           </div>
         </div>

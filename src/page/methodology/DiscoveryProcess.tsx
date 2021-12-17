@@ -29,7 +29,8 @@ export default function DiscoveryProcess() {
           <h1 className="title is-sm font-bolder">Discovery Workshop</h1>
           <h4>Reshaping business thoughts into best solutions</h4>
           <div className="mb-6">
-            We convey web and portable application development administrations to worldwide businesses since 2013, with 100% task conveyance achievement. Recruit the best software developers at reasonable costs. Our plan centered methodology and
+            We convey web and portable application development administrations to worldwide businesses
+            since 2013, with 100% task conveyance achievement. Recruit the best software developers at reasonable costs. Our plan centered methodology and
             venture execution forms help you to convey the correct arrangements.
           </div>
         </div>

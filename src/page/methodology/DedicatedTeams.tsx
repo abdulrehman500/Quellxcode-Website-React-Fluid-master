@@ -20,10 +20,9 @@ export default function DedicatedTeams() {
 
         <div className="column w-24 w-12@md">
           <h1 className="title is-sm font-bolder">Dedicated Engagement Model</h1>
-          <h4>Make your own project-based group for advancing degree</h4>
+          <h4>To advance your degree, form your own project-based group</h4>
           <div className="mb-6">
-            With various commitment models set up, we noticed a factor considered by our 3000+ customers while picking the RIGHT MODEL. That is, how much control and understanding they have with the current extent of work. Picking the correct model
-            by means of master conference truly has any kind of effect, in all honesty!!
+          With a variety of commitment models in place, we found a factor that our 3000+ customers evaluate when choosing the RIGHT MODEL: how much control and understanding they have over the present scope of work. In all honesty, selecting the correct model through a master conference has any kind of impact!!
           </div>
         </div>
         <div className="column hidden block@md">
@@ -41,14 +40,11 @@ export default function DedicatedTeams() {
         </div>
         <div className="column w-24 w-12@md pl-4">
           <h5 className="mb-8">
-            "Exclusive sets or HIRE Model methodology in straightforward terms is tied in with picking and making your own group to deal with your product advancement venture so you stay concentrated on centre business zones. You can employ them on a
-            full time, part-time or hourly basis, from a single person to a group of developers, that will be working freely or related to another team(s)."
-          </h5>
+          Exclusive sets or HIRE Model methodology in straightforward terms is tied in with picking and making your own group to deal with your product advancement venture so you stay concentrated on centre business zones. If you hire best remote developers, you can employ them on a full time, part-time or hourly basis, from a single person to a group of developers, that will be working freely or related to another team(s)."  </h5>
           <p>
-            With successful mutual effort, a committed programming improvement group can have clear bits of knowledge about the task objective. The business vision and objectives about what your END clients are relied upon to get are clarified ahead
-            of time alongside a guide on venture the executives – from the opening shot to conveyance.
+          A dedicated programming improvement group can have unambiguous bits of knowledge about the task target with successful mutual effort. The business vision and objectives for what your END clients may expect are specified ahead of time, along with a step-by-step roadmap for the executives – from the first shoot to delivery.
           </p>
-          <p>What's more, from our 20+ long periods of experience, we can ensure that this methodology expands productivity, quality and timely delivery of the project by a great deal.</p>
+          <p>Furthermore, based on our 20+ years of experience, we can guarantee that this methodology,to hire best remote developers, significantly increases project productivity, quality, and timeliness.</p>
         </div>
       </section>
     </>

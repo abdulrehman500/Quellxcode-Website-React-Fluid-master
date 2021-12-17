@@ -18,9 +18,9 @@ export default function ProjectExecution() {
         </div>
 
         <div className="column w-24 w-12@md">
-          <h1 className="title is-sm font-bolder">Project Execution Process</h1>
-          <h4>Taking care of business thoughts into powerful solutions</h4>
-          <div className="mb-6">QuellxCode Pvt Ltd. project execution procedure represents a wide range of projects, regardless of whether you're beginning little, developing efficiently or effectively innovative. Our methodology towards each project is arranged and even to each customer's necessity.</div>
+          <h1 className="title is-sm font-bolder">Project Execution Model&Process</h1>
+          <h4>transforming business ideas into effective solutions</h4>
+          <div className="mb-6">QuellxCode Pvt Ltd. project execution model and approach covers a wide range of projects, whether you're just starting out, growing quickly, or being truly innovative. Our approach to each project is planned and tailored to the needs of each customer.</div>
         </div>
         <div className="column hidden block@md">
           <img className="img" src={home} alt="" />
@@ -51,8 +51,12 @@ export default function ProjectExecution() {
 
       <section className="px-6 py-6@md py-10 container">
         <h1 className="font-bolder">How to Engage?</h1>
-        <p>Each project is remarkable – and henceforth requires a devoted and uncommon treatment. Other than the basic triangle of cost, time and degree, the working model between the 'customer' and the 'agency ' likewise assumes a pivotal job in adjusting the previous.</p>
-        <p>That is the reason QuellxCode Pvt. Ltd have clear and vigorous project execution models which are entirely adaptable and customer driven at their center. However, before leaving on any project, regardless of whether it's a basic site or an increasingly mind boggling programming development, it is significant we assist you with utilizing the 'right' project execution model.</p>
+        <p>
+        Each project is unique, and it will receive special attention. Aside from the basic triangle of cost, time, and degree, the relationship between the 'client' and the 'agency' also plays an important role in changing the prior.
+        </p>
+        <p>
+        That is why QuellxCode Pvt. Ltd has developed clear and robust project execution methods that are completely customizable and customer-driven. However, before embarking on any project, whether it's a simple website or a more complex programming development, it's critical that we assist you in selecting the 'correct' project execution model.
+        </p>
         <p>“A project might be completed without the use of a project execution process, but most times, the absence of one leads to the failure of it”.</p>
         <div className="txt-center">
           <img src={three_pik} alt="" className="img w-12@md w-24" />
