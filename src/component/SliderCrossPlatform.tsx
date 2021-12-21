@@ -63,7 +63,7 @@ export default function SliderCrossPlatform(props: props) {
           <div className="absolute left-50 trans-x--50 top-0 w-24 bottom-0 event-none">
             <img className="img h-100" src={laptop} alt="" />
           </div>
-          <Carousel
+          {/* <Carousel
             ref={laptopref}
             nextArrow={<NextArrow />}
             prevArrow={<PrevArrow />}
@@ -77,11 +77,11 @@ export default function SliderCrossPlatform(props: props) {
             arrows
             responsive={[{ breakpoint: 576, settings: { arrows: false } }]}
             beforeChange={(o, n) => {
-              ((tabletref.current as any) as Carousel).goTo(n);
-              ((mobileref.current as any) as Carousel).goTo(n);
+              ((tabletref.current as any) as typeof Carousel).goTo(n);
+              ((mobileref.current as any) as typeof Carousel).goTo(n);
               props.onchange(props.colors[n]);
             }}
-          >
+          > */}
             {/* <div>
               <img src={citzenlappy} alt="citzenlappy" className="img inline-block" />
             </div> */}
@@ -94,7 +94,7 @@ export default function SliderCrossPlatform(props: props) {
             {/* <div>
               <img src={startemlappy} alt="startemlappy" className="img inline-block" />
             </div> */}
-          </Carousel>
+          {/* </Carousel> */}
         </div>
 
         <div className="grid justify-center align-bottom pt-10">
@@ -103,7 +103,7 @@ export default function SliderCrossPlatform(props: props) {
               <div className="absolute left-50 trans-x--50 top-0 w-24 bottom-0 event-none">
                 <img className="img h-100" src={iphone} alt="" />
               </div>
-              <Carousel
+              {/* <Carousel
                 ref={mobileref}
                 nextArrow={<NextArrow />}
                 prevArrow={<PrevArrow />}
@@ -115,11 +115,11 @@ export default function SliderCrossPlatform(props: props) {
                 draggable
                 slidesToShow={1}
                 beforeChange={(o, n) => {
-                  ((tabletref.current as any) as Carousel).goTo(n);
-                  ((laptopref.current as any) as Carousel).goTo(n);
+                  ((tabletref.current as any) as typeof Carousel).goTo(n);
+                  ((laptopref.current as any) as typeof Carousel).goTo(n);
                   props.onchange(props.colors[n]);
                 }}
-              >
+              > */}
                 {/* <div>
                   <img src={citzenmob} alt="citzentab" className="inline-block img" />
                 </div> */}
@@ -132,7 +132,7 @@ export default function SliderCrossPlatform(props: props) {
                 {/* <div>
                   <img src={startemmobile} alt="startemtab" className="inline-block img" />
                 </div> */}
-              </Carousel>
+              {/* </Carousel> */}
             </div>
           </div>
           <div className="column w-24 w-14@md tablet absolute@lg right-0 top-0">
@@ -140,7 +140,7 @@ export default function SliderCrossPlatform(props: props) {
               <div className="absolute left-50 trans-x--50 top-0 w-24 bottom-0 event-none">
                 <img className="img h-100" src={tablet} alt="" />
               </div>
-              <Carousel
+              {/* <Carousel
                 ref={tabletref}
                 nextArrow={<NextArrow />}
                 prevArrow={<PrevArrow />}
@@ -152,11 +152,11 @@ export default function SliderCrossPlatform(props: props) {
                 draggable
                 slidesToShow={1}
                 beforeChange={(o, n) => {
-                  ((laptopref.current as any) as Carousel).goTo(n);
-                  ((mobileref.current as any) as Carousel).goTo(n);
+                  ((laptopref.current as any) as typeof Carousel).goTo(n);
+                  ((mobileref.current as any) as typeof Carousel).goTo(n);
                   props.onchange(props.colors[n]);
                 }}
-              >
+              > */}
                 {/* <div>
                   <img src={citzentab} alt="citzentab" className="inline-block img" />
                 </div> */}
@@ -169,7 +169,7 @@ export default function SliderCrossPlatform(props: props) {
                 {/* <div>
                   <img src={startemtab} alt="startemtab" className="inline-block img" />
                 </div> */}
-              </Carousel>
+              {/* </Carousel> */}
             </div>
           </div>
         </div>

@@ -37,7 +37,7 @@ export default function SliderHybrid(props: props) {
         <div className="absolute left-50 trans-x--50 top-0 w-24 bottom-0 z-top event-none">
           <img className="img h-100" src={iphone} alt="" />
         </div>
-        <Carousel
+        {/* <Carousel
           ref={iphoneref}
           beforeChange={(o, n) => {
             ((andriodref.current as any) as Carousel).goTo(n);
@@ -84,14 +84,14 @@ export default function SliderHybrid(props: props) {
           <div>
             <img src={efund3} alt="" className="img" />
           </div>
-        </Carousel>
+        </Carousel> */}
       </div>
 
       <div className="column relative w-12@sm w-24 andriod my-6 my-0@md">
         <div className="absolute left-50 trans-x--50 top-0 w-24 bottom-0 z-top event-none">
           <img className="img h-100" src={android} alt="" />
         </div>
-        <Carousel
+        {/* <Carousel
           ref={andriodref}
           beforeChange={(o, n) => {
             ((iphoneref.current as any) as Carousel).goTo(n);
@@ -138,7 +138,7 @@ export default function SliderHybrid(props: props) {
           <div>
             <img src={efund3} alt="" className="img" />
           </div>
-        </Carousel>
+        </Carousel> */}
       </div>
     </section>
   );
